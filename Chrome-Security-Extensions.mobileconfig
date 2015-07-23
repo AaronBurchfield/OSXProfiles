@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadIdentifier</key>
+	<string>com.github.aaronburchfield.profile.chrome-security-extensions</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>83192D55-5C8D-413D-A060-450863A2A0C8</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDisplayName</key>
+	<string>Chrome Security Extensions</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadType</key>
+			<string>com.apple.ManagedClient.preferences</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.github.aaronburchfield.profile.chrome-security-extensions</string>
+			<key>PayloadUUID</key>
+			<string>3BEF8616-17B8-47CA-9762-F318C5676D49</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadDisplayName</key>
+			<string>Chrome Security Extensions</string>
+			<key>PayloadContent</key>
+			<dict>
+				<key>com.google.Chrome</key>
+				<dict>
+					<key>Forced</key>
+					<array>
+						<dict>
+							<key>mcx_preference_settings</key>
+							<dict>
+								<key>ExtensionInstallForcelist</key>
+								<array>
+									<string>jeoacafpbcihiomhlakheieifhpjdfeo;http://clients2.google.com/service/update2/crx</string>
+									<string>pkehgijcmpdhfbdbbnkijodmdjhbjlgp;http://clients2.google.com/service/update2/crx</string>
+									<string>cjpalhdlnbpafiamejdnhcphjbkeiagm;http://clients2.google.com/service/update2/crx</string>
+									<string>gcbommkclmclpchllfjekcdonpmejbdp;http://clients2.google.com/service/update2/crx</string>
+								</array>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadIdentifier</key>
+	<string>com.github.aaronburchfield.profile.finder-defaults</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>40CCC0BD-98F4-4BEB-83D6-C252D5797852</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDisplayName</key>
+	<string>Finder Defaults</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadType</key>
+			<string>com.apple.finder</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.github.aaronburchfield.profile.finder-defaults</string>
+			<key>PayloadUUID</key>
+			<string>ADDBB76B-946F-426D-8002-FA7FB357094F</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadDisplayName</key>
+			<string>Finder Defaults</string>
+			<key>ShowPathbar</key>
+			<true/>
+			<key>ShowStatusBar</key>
+			<true/>
+			<key>ShowMountedServersOnDesktop</key>
+			<true/>
+			<key>ShowHardDrivesOnDesktop</key>
+			<true/>
+			<key>ShowRemovableMediaOnDesktop</key>
+			<true/>
+			<key>ShowExternalHardDrivesOnDesktop</key>
+			<true/>
+		</dict>
+	</array>
+</dict>
+</plist>
